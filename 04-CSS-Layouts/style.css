@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.product {
+  border: 5px solid #000;
+  width: 825px;
+  margin: 50px auto;
+}
+
+.product-overview-container {
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
+}
+
+.product-preview-container {
+  margin-top: 20px;
+}
+
+.product-details-container {
+  margin-top: 20px;
+}
+
+.product-header {
+  background-color: #f4f4f4;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+
+.product-name {
+  font-size: 20px;
+}
+
+.sale {
+  position: absolute;
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 5px 10px;
+  top: -15px;
+  left: -35px;
+}
+
+.product-img {
+  width: 250px;
+  height: 250px;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.free-shipping {
+  color: grey;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.product-description {
+  margin-bottom: 15px;
+  line-height: 25px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: #000;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+.colors-container {
+  display: flex;
+  gap: 10px;
+}
+
+.color {
+  width: 20px;
+  height: 20px;
+}
+
+.black {
+  background-color: #000;
+}
+
+.blue {
+  background-color: #0000ff;
+}
+
+.red {
+  background-color: #ff0000;
+}
+
+.yellow {
+  background-color: #ffff00;
+}
+
+.green {
+  background-color: #00ff00;
+}
+
+.brown {
+  background-color: #a52a2a;
+}
+
+.product-details {
+  text-transform: uppercase;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.detail-list-container {
+  margin-left: 15px;
+  line-height: 20px;
+}
+
+.add-to-cart-btn {
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  border-top: 5px solid #000;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
