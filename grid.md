@@ -4,11 +4,13 @@
 
 ![grid](./assests/grid.png)
 
-## Grid teminology
+## Grid terminology
 
 ![grid terminology](./assests/basic-grid-terminology.png)
 
 ![more grid terminology](./assests/more-grid-terminology.png)
+
+![more grid terminology](./assests/basic-grid-terminology-2.png)
 
 ## Grid cheatsheet
 
@@ -17,6 +19,8 @@
 - ```justify-cotent``` and ```align-content``` are used to align tracks inside of the container **_(ONLY APPLIES IF CONTAINER IS LARGER THAN THE GRID ITSELF)_**.
   - justify is for the ```row-axis``` (horizontal)
   - align is for the ```column-axis``` (vertical)
+
+![grid cheatsheet](./assests/grid-cheatsheet-2.png)
 
 EXAMPLE:
 ```css
